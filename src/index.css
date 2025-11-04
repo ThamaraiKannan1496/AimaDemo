@@ -1,0 +1,60 @@
+/* ---Google Fonts--- */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* ---Custom Font: Bower-Bold--- */
+@font-face {
+  font-family: "Bower-Bold";
+  src: url("https://db.onlinewebfonts.com/t/40fccfffa7bc57048f06f7420d6fe7ae.eot");
+  src: url("https://db.onlinewebfonts.com/t/40fccfffa7bc57048f06f7420d6fe7ae.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/40fccfffa7bc57048f06f7420d6fe7ae.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/40fccfffa7bc57048f06f7420d6fe7ae.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/40fccfffa7bc57048f06f7420d6fe7ae.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/40fccfffa7bc57048f06f7420d6fe7ae.svg#Bower-Bold")
+      format("svg");
+}
+
+/* ---Tailwind Base Imports--- */
+@import "tailwindcss";
+
+/* ---Theme Layer (Font Variables)--- */
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --font-dmsans: "DM Sans", sans-serif;
+  --font-bower: "Bower-Bold", sans-serif;
+}
+
+/* ---   Base Layer (Global Styles)--- */
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .font-inter {
+    font-family: var(--font-inter);
+  }
+
+  .font-bower {
+    font-family: var(--font-bower);
+  }
+
+  .font-dmsans {
+    font-family: var(--font-dmsans);
+  }
+
+  .section-container {
+    @apply w-[96%] md:w-[89%] px-5 md:px-0 mx-auto;
+  }
+}
