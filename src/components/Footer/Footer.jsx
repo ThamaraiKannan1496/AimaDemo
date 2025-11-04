@@ -1,7 +1,7 @@
 import React from "react";
 import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
 import logo from "../../assets/logo.png";
-import footerImg from "../../assets/footerlogo.png";
+import footerImg from "../../assets/footerLogo.png";
 import footerVid from "../../assets/footerSocial.png";
 
 const Footer = () => {
