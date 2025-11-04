@@ -12,7 +12,7 @@ const Footer = () => {
         {/* Left Section - Logos + Socials + Links */}
         <div className="flex flex-col lg:flex-row items-start lg:items-center gap-8">
           {/* Logos (left column) */}
-          <div className="shrink-0 space-y-10">
+          <div className="shrink-0 space-y-10" data-aos="flip-right">
             <img src={logo} alt="AIMA Logo" className="w-36" />
             <img src={footerImg} alt="AIMO Logo" className="w-36  " />
           </div>
@@ -66,7 +66,10 @@ const Footer = () => {
         </div>
 
         {/* Right Section - Facebook Embed */}
-        <div className="flex justify-center lg:justify-end">
+        <div
+          className="flex justify-center lg:justify-end"
+          data-aos="flip-left"
+        >
           <img
             src={footerVid}
             alt="social"

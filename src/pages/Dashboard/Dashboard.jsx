@@ -16,12 +16,12 @@ const DashboardPage = () => {
       >
         <div className="absolute inset-0 bg-blue-900/30"></div>
         {/* Text Content */}
-        <div className="relative z-50 flex flex-col justify-center p-6 lg:pl-24 text-center lg:max-w-md xl:max-w-lg lg:text-left  -translate-y-10 sm:-translate-y-16 lg:-translate-y-18">
+        <div className="relative z-50 flex flex-col justify-center p-6 lg:pl-24 text-center lg:max-w-md xl:max-w-lg lg:text-left  -translate-y-10 sm:-translate-y-16 lg:-translate-y-18 ">
           <h2 className="text-base sm:text-lg md:text-xl font-normal tracking-wide mb-2 font-dmsans">
             Welcome to
           </h2>
 
-          <h1 className="font-bold font-bower leading-tight mb-3 py-3">
+          <h1 className="font-bold font-bower leading-tight mb-3 py-3 tracking-in-contract-bck-bottom">
             <span className="text-3xl sm:text-[68px] md:text-6xl lg:text-[68px] whitespace-wrap xl:whitespace-nowrap">
               All India Management <br />
               Association
@@ -36,7 +36,10 @@ const DashboardPage = () => {
 
       {/* 🟦 Info + Buttons Section */}
       <div className="w-full text-center py-10 px-4 sm:px-8 md:px-12 bg-linear-to-r from-[#FEFEFE]/95 to-[#F0F6FF]/95">
-        <p className="text-black text-base sm:text-lg md:text-xl font-dmsans font-medium mb-8 max-w-6xl mx-auto">
+        <p
+          className="text-black text-base sm:text-lg md:text-xl font-dmsans font-medium mb-8 max-w-6xl mx-auto"
+          data-aos="zoom-in-up"
+        >
           The All India Management Association (AIMA) is the Voice of India’s
           Leaders and Managers, and the apex body of the management profession
           in India. AIMA is a not-for-profit, non-lobbying organisation, and

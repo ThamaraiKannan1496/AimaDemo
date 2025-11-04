@@ -52,7 +52,10 @@ const CustomizedSolutionSection = () => {
           <h2 className="text-white text-base sm:text-lg md:text-xl font-bold uppercase leading-relaxed mb-3 font-dmsans tracking-wider px-6">
             Smart Approaches for Unique Challenges
           </h2>
-          <h2 className="text-4xl md:text-[64px] font-bold text-white font-bower">
+          <h2
+            className="text-4xl md:text-[64px] font-bold text-white font-bower"
+            data-aos="zoom-out-up"
+          >
             Customised Solutions
           </h2>
         </div>
@@ -64,6 +67,7 @@ const CustomizedSolutionSection = () => {
               <div
                 key={index}
                 className="rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 bg-[#F1F5FC] "
+                data-aos="fade-up"
               >
                 <img
                   src={event.img}

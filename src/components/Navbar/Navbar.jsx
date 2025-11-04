@@ -22,7 +22,7 @@ const Navbar = () => {
     <header className="w-full text-white bg-gradient-to-b from-[#0B3C89] via-[#173ABF] to-[#3b50c5] border-none! shadow-none!">
       {/* ===== TOP BAR ===== */}
       <div className="w-full mx-auto ">
-        <div className="flex justify-between items-center py-3 px-8 ">
+        <div className="flex justify-between items-center py-4 px-8 ">
           {/* Logo */}
           <div>
             <img src={logo} alt="AIMA Logo" className="h-[50px]" />
@@ -36,13 +36,13 @@ const Navbar = () => {
 
             <a
               href=""
-              className="text-xs hover:underline font-normal font-inter"
+              className="hidden md:block text-xs hover:underline font-normal font-inter"
             >
               FOR MEMBERS
             </a>
             <a
               href=""
-              className="text-xs hover:underline font-normal font-inter"
+              className="hidden md:block text-xs hover:underline font-normal font-inter"
             >
               FOR STUDENTS
             </a>
@@ -66,7 +66,7 @@ const Navbar = () => {
               <li key={link}>
                 <a
                   href=""
-                  className="inline-block px-3 py-3 hover:bg-[#0074e4]/30 transition font-dmsans"
+                  className="inline-block px-3 py-1.5 hover:bg-[#0074e4]/30 transition font-dmsans"
                 >
                   {link}
                 </a>

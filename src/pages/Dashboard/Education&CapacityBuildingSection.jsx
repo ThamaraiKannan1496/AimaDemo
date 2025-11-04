@@ -101,7 +101,10 @@ const EducationCapacitySection = () => {
           <h2 className="text-white text-base sm:text-lg md:text-xl font-bold uppercase leading-relaxed mb-3 font-dmsans tracking-wider">
             Building Strong Foundations
           </h2>
-          <h1 className="text-4xl md:text-[64px] font-bold text-white font-bower">
+          <h1
+            className="text-4xl md:text-[64px] font-bold text-white font-bower"
+            data-aos="zoom-in-left"
+          >
             Education & Capacity Building
           </h1>
         </div>
@@ -113,6 +116,7 @@ const EducationCapacitySection = () => {
               <div
                 key={program.id}
                 className="bg-[#F1F5FC] rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300"
+                data-aos="zoom-in-up"
               >
                 <div className="bg-[#F1F5FC]">
                   <img

@@ -59,7 +59,10 @@ const ManagerialLeadershipSection = () => {
           <h2 className="text-white text-base sm:text-lg md:text-xl font-bold uppercase leading-relaxed mb-3 font-dmsans tracking-wider">
             From Managers to Leaders
           </h2>
-          <h2 className="text-4xl md:text-[64px] font-bold text-white font-bower">
+          <h2
+            className="text-4xl md:text-[64px] font-bold text-white font-bower"
+            data-aos="zoom-in-up"
+          >
             Managerial & Leadership Development
           </h2>
         </div>
@@ -103,7 +106,10 @@ const ManagerialLeadershipSection = () => {
       {/*  Learning Section */}
       <div className="relative py-20 pt-50 sm:pt-90 z-30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          <div className="bg-[#E9EFFB] rounded-3xl shadow-xl overflow-hidden flex flex-col md:flex-row items-stretch md:items-center">
+          <div
+            className="bg-[#E9EFFB] rounded-3xl shadow-xl overflow-hidden flex flex-col md:flex-row items-stretch md:items-center"
+            data-aos="flip-up"
+          >
             {/* Image Section */}
             <div className="w-full md:w-[55%] h-64 sm:h-80 md:h-auto">
               <img

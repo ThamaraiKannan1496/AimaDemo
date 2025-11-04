@@ -76,7 +76,10 @@ const EventsSection = () => {
           <h2 className="text-white text-base sm:text-xl font-bold uppercase leading-relaxed mb-3 font-dmsans tracking-wider">
             Bringing People Together
           </h2>
-          <h2 className="text-4xl sm:text-[64px] font-bold text-white font-bower">
+          <h2
+            className="text-4xl sm:text-[64px] font-bold text-white font-bower"
+            data-aos="zoom-in-up"
+          >
             Events
           </h2>
         </div>
@@ -91,6 +94,7 @@ const EventsSection = () => {
               <div
                 key={index}
                 className=" rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 bg-[#F1F5FC]"
+                data-aos="zoom-in-up"
               >
                 <div className="bg-[#F1F5FC]">
                   <img

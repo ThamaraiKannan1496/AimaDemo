@@ -68,7 +68,10 @@ const ContactSection = () => {
             </div>
 
             {/* Map */}
-            <div className="w-full h-64 bg-gray-200 rounded-lg overflow-hidden shadow-sm mt-6">
+            <div
+              className="w-full h-64 bg-gray-200 rounded-lg overflow-hidden shadow-sm mt-6"
+              data-aos="fade-right"
+            >
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.0234520867826!2d77.21736931508076!3d28.59305248243406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2daa9eb4d0b%3A0x717971125923e5d!2sAll%20India%20Management%20Association!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
                 width="100%"
